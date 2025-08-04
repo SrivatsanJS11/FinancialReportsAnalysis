@@ -1,6 +1,4 @@
 # FinancialReportsAnalysis
-# Financial Report Sentiment Analysis 🧾📈
-
 This project analyzes the sentiment of different sections in 10-K filings using FinBERT, a BERT-based language model fine-tuned for financial text. The goal is to quantify and compare how sentiment in financial disclosures changes across time and companies.
 
 We manually downloaded 10-K filings from the SEC EDGAR database. An EDGAR crawler was then used to extract individual sections (typically 16 items) from each filing. Sentiment scoring was applied **section-wise**, and the yearly sentiment was calculated by averaging scores across all sections for that year.
